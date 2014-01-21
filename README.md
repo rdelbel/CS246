@@ -39,8 +39,8 @@ Module 2: C++
 #include <iostream>
 using namespace std;
 int main(){
-cout<<"Hello world" << endl;
-return 0;
+    cout<<"Hello world" << endl;
+    return 0;
 }
 ```
 
@@ -92,3 +92,18 @@ cout<<x; // put x to stdout
 cerr<<x; // put x to stderr
 cin>>x; // get x from stdin
 ```
+
+operator points in the direction of information flow 
+
+**Example** get two numbers and add them
+
+```c++
+#include<iostream>
+using namespace std;
+int main(){
+    int x,y;
+    cin>>x>>y;
+    cout<<x+y<<endl;
+}
+```
+
