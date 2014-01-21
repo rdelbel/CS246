@@ -136,11 +136,32 @@ What if input is exhausted before we get 2 ints? Same.
 ^D
 4
 ```
-``bash
+```bash
 ./.out
 4
 ^C
-``
+```
 
 Always do ^D unless you have to ^C.
 
+How can we tell if a read has failed (bad input), or if the input stream is
+exhausted?
+
+* If the read failed: cin.fail() will be true
+* If EOF: cin.eof() and cin.fail() with both be true
+* But not until an attempted read failed. 
+* They will not be turned on until you try the read and fail it.
+
+**Example** Read all ints from stdin and echo them, one per line. Stop if a non
+integer is encountered or end of file is hit.
+
+```c++
+int main(){
+    int i;
+    while(true){
+        cin>>i;
+        if(cin.fail())
+            break
+        cout<<i<<end;
+}
+```
