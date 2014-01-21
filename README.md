@@ -18,8 +18,8 @@ differences between ranges (edge cases)
 * Extreme Cases 
 * Intuition and experience
 
-White box Testing
-*
+**White box Testing**
+
 * check all logical paths through the program
 * make sure every function runs
 * Test loops that run 0, 1, many times
@@ -69,3 +69,5 @@ g++ hello.cc -o hello
 ```
 
 Most C programs are valid C++ programs
+
+
