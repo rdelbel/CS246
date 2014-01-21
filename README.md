@@ -70,4 +70,17 @@ g++ hello.cc -o hello
 
 Most C programs are valid C++ programs
 
+C++ Input/Output
+-
+
+We've seen
+```c++
+ cout<<stuff<<endl;
+```
+
+C++ provides 3 I/O stream objects:
+* **cout** for printing to stdout
+* **cin** for reading from stdin
+* **cerr** for printing to stderr
+
 
