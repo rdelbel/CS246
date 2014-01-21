@@ -83,4 +83,6 @@ C++ provides 3 I/O stream objects:
 * **cin** for reading from stdin
 * **cerr** for printing to stderr
 
-
+**I/O operators**
+<< "put to" (outout)
+>> "get from" (input)
