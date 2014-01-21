@@ -109,3 +109,38 @@ int main(){
 }
 ```
 
+**Notes**
+* cin >> ignores whitespace
+* cin >> x >> y; looks for two ints on stdin, ignoring whitespace
+* any # of spaces, tabs, newlines between x and y
+
+What if input doesn't cointain an int next?
+
+```bash
+./a.out
+4 five
+4
+```
+```bash
+./a.out
+4 5.5 
+9
+```
+Statement fails, var is unassigned.
+
+What if input is exhausted before we get 2 ints? Same.
+
+```bash
+./.out
+4
+^D
+4
+```
+``bash
+./.out
+4
+^C
+``
+
+Always do ^D unless you have to ^C.
+
