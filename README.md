@@ -1,10 +1,10 @@
 Human vs Machine Testing
 =
 **Human Testing** 
-*humans read code and look for failutres
+* humans read code and look for failutres
 **Machine Testing** 
-*run the program on selected inputs, check against spec 
-*can't test everything * need to choose carefully
+* run the program on selected inputs, check against spec 
+* can't test everything * need to choose carefully
 
 **Black-box testing** no knoweldge of implementation
 **White-box testing** full knoweldge of implementation
