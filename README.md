@@ -53,3 +53,11 @@ Notes
 header <iostream>
 std::cout<< ... << ... <<< ... <<< std::endl
 
+* using namespace std lets you refer to std::cout, std::endl as just cout, endl
+* **return** returns a stats to the shell ($?) If not specified, main returs 0.
+
+Compiling C++ programs
+-
+*g++ program.cc -o program
+* **-0 program** is the name of the executable. If not specified then it will
+  be a.out
