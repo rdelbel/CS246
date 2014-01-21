@@ -207,3 +207,46 @@ int main(){
 }
 ```
 
+**Note**
+* operator >> is the C right bitshift operator
+* in C a>>b means shoft a's bit representation by b slots to the right
+
+**EG**
+* 21 in binary is 10101_2
+* 21>>3 = 10_2 = 2_10
+* can still do this in c++ but when the LHS is cin  it means "get from"
+
+** operator >> **
+* inputs: cin (type istream), data (various types)
+* Output? Returns cin back to you! (type istream)
+* so cin >> i has the side effect of populating i, and has the value of cin.
+* Why is this useful?
+* This is why we can write cin >> x >> y >>x; 
+* cin >> x >> y >> x;
+* cin >> y >> x;
+* cin >> x;
+* cin;
+
+**Example 3.0**
+```c++
+// Does exactly the same thing as the previous example
+int main(){
+    int i;
+    while (true){
+        if(!cin>>i)
+            break
+        cout<<i<<endl;
+    }
+}
+```
+
+**Example 4.0**
+```c++
+// Does exactly the same thing as the previous example
+int main(){
+    int i;
+    while(cin>>i){
+        cout<<i<<endl;
+    }
+}   
+```
