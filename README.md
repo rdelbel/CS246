@@ -7,10 +7,12 @@ Human vs Machine Testing
 * can't test everything * need to choose carefully
 
 **Black-box testing** no knoweldge of implementation
+
 **White-box testing** full knoweldge of implementation
+
 **Grey-box testing** some knoweldge of implementation
-How to Test
-*
+
+**How to Test**
 * Start with black-box, supplement with white-box
 * check various classes of input, eg numeric ranges, positive vs negative,
 differences between ranges (edge cases)
