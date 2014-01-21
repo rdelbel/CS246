@@ -4,7 +4,7 @@ Human vs Machine Testing
 * humans read code and look for failutres
 **Machine Testing** 
 * run the program on selected inputs, check against spec 
-* can't test everything * need to choose carefully
+* can't test everything: need to choose carefully
 
 **Black-box testing** no knoweldge of implementation
 
@@ -27,8 +27,8 @@ differences between ranges (edge cases)
 * Test loops that run 0, 1, many times
 * Keep tests as small as possible and have many of them
 
-Questions that testing can answer
-*
+**Questions that testing can answer**
+
 * Does my program work? (correct?) Functional testing
 * Did my change just break something (Regression Testing)
 * Is my program fast enough? **Performance testing**
@@ -38,6 +38,7 @@ Module 2: C++
 = 
 
 ```c++
+//Hello World Program
 #include <iostream>
 using namespace std;
 int main(){
@@ -50,8 +51,7 @@ int main(){
 
 * main **must** return type in in c++
 * stdio.h, printf still available in c++
-
- preferred: C++ I/O: 
+* preferred: C++ I/O: 
 header <iostream>
 std::cout<< ... << ... <<< ... <<< std::endl
 
@@ -61,7 +61,7 @@ std::cout<< ... << ... <<< ... <<< std::endl
 **Compiling C++ programs**
 
 * g++ program.cc -o program
-* **-0 program** is the name of the executable. If not specified then it will
+* -0 **program** is the name of the executable. If not specified then it will
   be a.out
 * ./program to run.
 
