@@ -58,6 +58,12 @@ std::cout<< ... << ... <<< ... <<< std::endl
 
 Compiling C++ programs
 -
-*g++ program.cc -o program
+* g++ program.cc -o program
 * **-0 program** is the name of the executable. If not specified then it will
   be a.out
+* ./program to run.
+
+```bash
+g++ hello.cc -o hello
+./hello
+```
