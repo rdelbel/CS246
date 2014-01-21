@@ -44,8 +44,8 @@ return 0;
 }
 ```
 
-Notes
--
+**Notes**
+
 * main **must** return type in in c++
 * stdio.h, printf still available in c++
 
@@ -56,8 +56,8 @@ std::cout<< ... << ... <<< ... <<< std::endl
 * using namespace std lets you refer to std::cout, std::endl as just cout, endl
 * **return** returns a stats to the shell ($?) If not specified, main returs 0.
 
-Compiling C++ programs
--
+**Compiling C++ programs**
+
 * g++ program.cc -o program
 * **-0 program** is the name of the executable. If not specified then it will
   be a.out
@@ -67,3 +67,5 @@ Compiling C++ programs
 g++ hello.cc -o hello
 ./hello
 ```
+
+Most C programs are valid C++ programs
