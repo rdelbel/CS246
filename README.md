@@ -165,3 +165,45 @@ int main(){
         cout<<i<<end;
 }
 ```
+
+```bash
+./a.out
+1 2 3 4 5
+1
+2
+3
+4
+5
+6
+6
+7
+7
+```
+
+Note:
+* There is an implicit conversion from cin to void*
+* void * is a pointer to something whos type is not defiend
+* void* can point to anything. It is a generic pointer.
+* cin can be used in these numeric contexts. 
+* cin can be used a condition
+* void* can be converted to bool
+
+Therefore
+```c++
+if(cin)// is true if !cin.fail()
+       // false if cin.fail()
+```
+
+**Example v2.0**
+```c++
+// This code will do the same thing as before
+int main(){
+    int i;
+    while(true){
+        cin>>i;
+        if(!cin) break;
+        cout<<i<endl;
+    }
+}
+```
+
