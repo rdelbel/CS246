@@ -608,3 +608,5 @@ y is now 12;
 * int *p=&z;
 * gives the address of y
 * anything i try and do with z does it to y.
+
+I will add to my notes
